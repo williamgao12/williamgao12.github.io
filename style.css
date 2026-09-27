@@ -90,8 +90,8 @@ ul.points li::marker { color: var(--accent); }
 .project { display: grid; grid-template-columns: 1fr 1.1fr; gap: 32px; align-items: center; }
 .project + .project { margin-top: 36px; padding-top: 36px; border-top: 1px solid var(--hairline); }
 .project:nth-of-type(even) .fig { order: 2; }
-.project h3 a { color: var(--text); }
-.project h3 a:hover { color: var(--accent); }
+.project h3 a, .job h3 a { color: var(--text); }
+.project h3 a:hover, .job h3 a:hover { color: var(--accent); }
 .more { display: inline-block; margin-top: 16px; font-weight: 700; font-size: 15px; }
 
 .fig {
