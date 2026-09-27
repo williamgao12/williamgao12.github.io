@@ -63,6 +63,9 @@ h1, h2, h3 { font-family: "Manrope", "Segoe UI", sans-serif; line-height: 1.15; 
 .hero .links a:first-child { background: var(--accent); color: #fff; border-color: var(--accent); }
 .hero .links a:hover { text-decoration: none; filter: brightness(0.97); }
 
+.aside { margin-top: 22px; font-size: 14px; }
+.aside a { color: var(--text-soft); border-bottom: 1px dotted var(--text-soft); }
+.aside a:hover { color: var(--accent); border-color: var(--accent); text-decoration: none; }
 /* Summary box */
 .titleblock { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .tb { background: var(--card-solid); border-radius: var(--radius-md); padding: 14px 16px; border: 1px solid var(--hairline); }
