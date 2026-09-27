@@ -156,3 +156,6 @@ section:has(.pager) { padding: 22px 32px; }
 .about-teaser p { max-width: 56ch; color: var(--text-soft); font-size: 17px; }
 .about-btn { flex-shrink: 0; padding: 12px 26px; border-radius: 999px; font-weight: 700; background: var(--teal); color: #fff; }
 .about-btn:hover { text-decoration: none; filter: brightness(0.95); }
+
+.fig:has(video):not(.missing) { aspect-ratio: auto; background: #1f2a3a; }
+.fig video { height: auto; max-height: 80vh; object-fit: contain; }
