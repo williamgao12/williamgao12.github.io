@@ -149,3 +149,10 @@ section:has(.pager) { padding: 22px 32px; }
   .project { grid-template-columns: 1fr; gap: 18px; }
   .project:nth-of-type(even) .fig { order: 0; }
 }
+
+.about-teaser { display: flex; align-items: center; justify-content: space-between; gap: 28px; flex-wrap: wrap;
+  background: linear-gradient(135deg, rgba(62, 142, 138, 0.12), rgba(59, 111, 168, 0.10)); }
+.about-teaser h2 { margin-bottom: 10px; }
+.about-teaser p { max-width: 56ch; color: var(--text-soft); font-size: 17px; }
+.about-btn { flex-shrink: 0; padding: 12px 26px; border-radius: 999px; font-weight: 700; background: var(--teal); color: #fff; }
+.about-btn:hover { text-decoration: none; filter: brightness(0.95); }
