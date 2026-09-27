@@ -66,6 +66,7 @@ h1, h2, h3 { font-family: "Manrope", "Segoe UI", sans-serif; line-height: 1.15; 
 .aside { margin-top: 22px; font-size: 14px; }
 .aside a { color: var(--text-soft); border-bottom: 1px dotted var(--text-soft); }
 .aside a:hover { color: var(--accent); border-color: var(--accent); text-decoration: none; }
+
 /* Summary box */
 .titleblock { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .tb { background: var(--card-solid); border-radius: var(--radius-md); padding: 14px 16px; border: 1px solid var(--hairline); }
@@ -105,7 +106,8 @@ ul.points li::marker { color: var(--accent); }
 .fig img, .fig video { width: 100%; height: 100%; object-fit: cover; display: block; }
 .fig .empty { position: absolute; inset: 0; display: none; place-items: center; text-align: center; padding: 24px; color: var(--text-soft); font-size: 14px; }
 .fig.missing .empty { display: grid; }
-.fig.missing img { display: none; }
+.fig.missing img, .fig.missing video { display: none; }
+.job-media { margin-top: 22px; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
 .fig figcaption {
   position: absolute; left: 12px; bottom: 12px; font-size: 13px; font-weight: 600;
   padding: 4px 12px; border-radius: var(--radius-sm);
