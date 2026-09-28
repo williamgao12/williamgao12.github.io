@@ -175,3 +175,7 @@ section:has(.pager) { padding: 22px 32px; }
 @media (max-width: 760px) {
   .split { grid-template-columns: 1fr; gap: 22px; }
 }
+
+
+/* Two photos stacked on the right */
+.media-stack { display: flex; flex-direction: column; gap: 16px; }
