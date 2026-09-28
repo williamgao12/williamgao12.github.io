@@ -46,3 +46,61 @@
       </video>
       <div class="empty">Add the tote inspection video here:<br>images/sepro-video.mp4</div>
     </figure>
+  </section>
+
+  <section class="split">
+    <div>
+      <h2>Robot riser attachment</h2>
+      <ul class="points">
+        <li>Designed and validated a new FANUC robot riser attachment for a new base configuration.</li>
+        <li>Reached a minimum factor of safety of 4 to 5 with structural FEA in Hilti PROFIS Engineering.</li>
+      </ul>
+      <div class="prose">
+        <p>A new riser was needed because my company was switching 6-axis robot brands. I used previous riser designs as a starting point and refined the design around the new screw and bolt placements. I also had to account for the riser's welds and the different overhangs of the new robots, which could block access to certain areas and complicate installation. I verified the design's safety with hand calculations for the overturning moment and anchor bolt pullout from the floor, along with FEA in Hilti PROFIS. My favorite part of this project was seeing what I learned in class actually used to keep the robots safe during emergency stops or with heavier payloads.</p>
+      </div>
+    </div>
+    <div class="media-stack">
+      <figure class="fig">
+        <img src="../images/sepro-2.jpg" alt="FANUC robot riser attachment" onerror="this.parentElement.classList.add('missing')">
+        <div class="empty">Add the riser photo here:<br>images/sepro-2.jpg</div>
+        <figcaption>Robot riser attachment</figcaption>
+      </figure>
+      <figure class="fig">
+        <img src="../images/sepro-3.jpg" alt="Second view of the robot riser attachment" onerror="this.parentElement.classList.add('missing')">
+        <div class="empty">Add another riser photo here:<br>images/sepro-3.jpg</div>
+      </figure>
+    </div>
+  </section>
+
+  <section class="split">
+    <div>
+      <h2>Cobot palletizing algorithm</h2>
+      <ul class="points">
+        <li>Wrote a complete palletizing algorithm covering X/Y/Z moment shifts, single and dual tote gripper setups, dynamic stack height, and 0° and 90° tote orientations.</li>
+      </ul>
+      <div class="prose">
+        <p>The hardest issue I ran into with this palletizing algorithm was handling an odd number of totes per layer while picking up two totes at a time. This meant I had to account for avoiding the conveyor, handling asymmetric totes, flipping the totes into the right orientation, and placing an extra tote on every even layer. My favorite part of this project was learning to break the problem down into super simple questions after analyzing a large number of issues.</p>
+      </div>
+    </div>
+    <figure class="fig">
+      <img src="../images/sepro-1.jpg" alt="FANUC cobot palletizing cell" onerror="this.parentElement.classList.add('missing')">
+      <div class="empty">Add the cobot photo here:<br>images/sepro-1.jpg</div>
+      <figcaption>Cobot palletizing cell</figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <h2>Wiring and fabrication</h2>
+    <ul class="points">
+      <li>Fabricated and wired 20+ industrial cables by crimping and soldering.</li>
+      <li>Wired the robot control system from electrical drawings, saving the company over $10,000 in outsourced labor.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <span>William Gao, Pittsburgh, PA</span>
+    <span><a href="mailto:wgao4@andrew.cmu.edu">wgao4@andrew.cmu.edu</a></span>
+  </footer>
+</main>
+</body>
+</html>
