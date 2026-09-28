@@ -35,14 +35,14 @@
   <section>
     <h2>How it works</h2>
     <div class="prose">
-      <p class="todo">Write 2 to 4 sentences explaining how the thing works, like you're telling a friend. What goes in, what happens, what comes out.</p>
+      <p>The Raspberry Pi works by first detecting a phone, along with the angles of the user's elbows and their head position. We set it up so that when someone is hunched over looking at their phone, the marbles drop. My favorite part of this project was coming up with the concept. It was a fun idea, and seeing it come together was exciting.</p>
     </div>
   </section>
 
   <section>
     <h2>What went wrong and how I fixed it</h2>
     <div class="prose">
-      <p class="todo">Pick one real problem you hit and how you solved it. Recruiters and interviewers care about this part the most.</p>
+      <p>The biggest challenge I ran into was the gap between how parts look in the CAD assembly and how they actually come out of the 3D printer. Parts that fit together on screen didn't always fit in real life, so I added about 0.1 mm of clearance between mating parts to get them to fit. I also had to print the design in multiple pieces, so I designed them to fit together without any extra parts. The time pressure was tough, but it was rewarding to see how much we could build in about a day.</p>
     </div>
   </section>
 
@@ -51,12 +51,18 @@
     <!-- Add more <figure> blocks to show more photos. Put the files in the images folder. -->
     <div class="gallery">
       <figure class="fig">
-        <img src="../images/phone-deterrent.jpg" alt="Phone-Detection Deterrent Device" onerror="this.parentElement.classList.add('missing')">
-        <div class="empty">Add a photo here:<br>images/phone-deterrent.jpg</div>
+        <video controls muted playsinline preload="metadata">
+          <source src="../images/phone-deterrent-video.mp4" type="video/mp4" onerror="this.closest('.fig').classList.add('missing')">
+        </video>
+        <div class="empty">Add a video here:<br>images/phone-deterrent-video.mp4</div>
       </figure>
       <figure class="fig">
-        <img src="../images/phone-deterrent-2.jpg" alt="Phone-Detection Deterrent Device, second view" onerror="this.parentElement.classList.add('missing')">
-        <div class="empty">Add another photo here:<br>images/phone-deterrent-2.jpg</div>
+        <img src="../images/phone-deterrent.png" alt="Phone-Detection Deterrent Device" onerror="this.parentElement.classList.add('missing')">
+        <div class="empty">Add a photo here:<br>images/phone-deterrent.png</div>
+      </figure>
+      <figure class="fig">
+        <img src="../images/phone-deterrent-2.png" alt="Phone-Detection Deterrent Device, second view" onerror="this.parentElement.classList.add('missing')">
+        <div class="empty">Add another photo here:<br>images/phone-deterrent-2.png</div>
       </figure>
     </div>
   </section>
