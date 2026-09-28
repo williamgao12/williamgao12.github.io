@@ -17,7 +17,7 @@
     <div class="phero-main">
       <h1>Sepro America</h1>
       <p class="lede">Engineering intern on a robotic production line: PLC logic, cobot programming, structural design, and wiring.</p>
-      <ul class="tags"><li>FANUC CRX</li><li>PLC / Ladder logic</li><li>FEA</li><li>Industrial wiring</li></ul>
+      <ul class="tags"><li>FANUC CRX</li><li>PLC / Ladder logic</li><li>Do-More Designer</li><li>SolidWorks</li><li>FEA</li><li>Hilti PROFIS</li><li>SQL Server</li><li>RFID / Barcode / OCR</li><li>Cobot palletizing</li><li>Industrial wiring</li><li>Crimping / Soldering</li></ul>
     </div>
     <div class="titleblock" aria-label="Internship summary">
       <div class="tb wide"><small>Role</small><span>Engineering Intern</span></div>
@@ -35,7 +35,7 @@
       <li>Handled about 15 distinct fail conditions and cut cycle time from 40 to 60s down to under 25s.</li>
     </ul>
     <div class="prose" style="margin-top:18px">
-      <p class="todo">In 2 to 3 sentences: what the line does, and what you changed to get the cycle time down.</p>
+      <p class="todo"> This production line extracted plastic totes from their molds, applied dual-sided labels, and performed multi-layer validation to ensure quality. To reduce cycle time, I minimized propagation latency by optimizing the handshake and data transfer code between the robot and PLC. My favorite part of this project was going from feeling overwhelmed, not even knowing how to get data from the RFID scanner, to fully automating the entire tote inspection sequence.</p>
     </div>
   </section>
 
@@ -45,7 +45,7 @@
       <li>Wrote a complete palletizing algorithm covering X/Y/Z moment shifts, single and dual tote gripper setups, dynamic stack height, and 0° and 90° tote orientations.</li>
     </ul>
     <div class="prose" style="margin-top:18px">
-      <p class="todo">What was the hardest case to get right (for example, dual totes or rotated stacks), and how did you solve it?</p>
+      <p class="todo">The hardest issue I ran into with this palletizing algorithm was handling an odd number of totes per layer while picking up two totes at a time. This meant I had to account for avoiding the conveyor, handling asymmetric totes, flipping the totes into the right orientation, and placing an extra tote on every even layer. My favorite part of this project was learning to break the problem down into super simple questions after analyzing a large number of issues.</p>
     </div>
   </section>
 
@@ -56,7 +56,7 @@
       <li>Reached a minimum factor of safety of 4 to 5 with structural FEA in Hilti PROFIS Engineering.</li>
     </ul>
     <div class="prose" style="margin-top:18px">
-      <p class="todo">Why was a new riser needed, and what loads did you design it for?</p>
+      <p class="todo">A new riser was needed because my company was switching 6-axis robot brands. I used previous riser designs as a starting point and refined the design around the new screw and bolt placements. I also had to account for the riser's welds and the different overhangs of the new robots, which could block access to certain areas and complicate installation. I verified the design's safety with hand calculations for the overturning moment and anchor bolt pullout from the floor, along with FEA in Hilti PROFIS. My favorite part of this project was seeing what I learned in class actually used to keep the robots safe during emergency stops or with heavier payloads.</p>
     </div>
   </section>
 
