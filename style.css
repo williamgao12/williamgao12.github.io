@@ -179,3 +179,25 @@ section:has(.pager) { padding: 22px 32px; }
 
 /* Two photos stacked on the right */
 .media-stack { display: flex; flex-direction: column; gap: 16px; }
+
+
+/* Make "Full project page" links look like buttons */
+.more {
+  display: inline-block;
+  margin-top: 18px;
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--accent);
+  background: rgba(59, 111, 168, 0.10);
+  border: 1px solid rgba(59, 111, 168, 0.30);
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.more::after { content: " \2192"; }
+.more:hover {
+  text-decoration: none;
+  color: #fff;
+  background: var(--accent);
+  border-color: var(--accent);
+}
