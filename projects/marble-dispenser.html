@@ -35,14 +35,14 @@
   <section>
     <h2>How it works</h2>
     <div class="prose">
-      <p class="todo">Write 2 to 4 sentences explaining how the thing works, like you're telling a friend. What goes in, what happens, what comes out.</p>
+      <p>The dispenser works by loading multiple marbles into a hopper. A DC motor turns a wheel with a marble compartment, which picks up one marble at a time and dispenses it at regular intervals. The wheel is 3D printed, the wooden housing was cut by hand with a jigsaw, and the ramp the marbles roll out on was laser cut.</p>
     </div>
   </section>
 
   <section>
     <h2>What went wrong and how I fixed it</h2>
     <div class="prose">
-      <p class="todo">Pick one real problem you hit and how you solved it. Recruiters and interviewers care about this part the most.</p>
+      <p>One problem with this project was that our initial design was more complicated than it needed to be. It used about three gears, but each gear meant drilling more holes in the back panel and added more room for error, so we simplified it down to one larger motor. We also had to work under time pressure, but we managed by communicating when each of us was free and deliberately splitting the work based on our strengths.</p>
     </div>
   </section>
 
@@ -51,12 +51,10 @@
     <!-- Add more <figure> blocks to show more photos. Put the files in the images folder. -->
     <div class="gallery">
       <figure class="fig">
-        <img src="../images/marble-dispenser.jpg" alt="Marble Dispensing Mechanism" onerror="this.parentElement.classList.add('missing')">
-        <div class="empty">Add a photo here:<br>images/marble-dispenser.jpg</div>
-      </figure>
-      <figure class="fig">
-        <img src="../images/marble-dispenser-2.jpg" alt="Marble Dispensing Mechanism, second view" onerror="this.parentElement.classList.add('missing')">
-        <div class="empty">Add another photo here:<br>images/marble-dispenser-2.jpg</div>
+        <video controls muted loop playsinline preload="metadata">
+          <source src="../images/marble-dispenser-video.mp4" type="video/mp4" onerror="this.closest('.fig').classList.add('missing')">
+        </video>
+        <div class="empty">Add a video here:<br>images/marble-dispenser-video.mp4</div>
       </figure>
     </div>
   </section>
