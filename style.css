@@ -207,3 +207,8 @@ section:has(.pager) { padding: 22px 32px; }
 .job-split { display: grid; grid-template-columns: 1.4fr 1fr; gap: 32px; align-items: center; }
 .job-split .job-head { flex-direction: column; gap: 2px; }
 @media (max-width: 760px) { .job-split { grid-template-columns: 1fr; gap: 18px; } }
+
+
+/* Let video boxes hug the video instead of stretching to match photos */
+.gallery { align-items: start; }
+.fig:has(video):not(.missing) { background: transparent; border: none; }
