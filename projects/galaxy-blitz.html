@@ -55,8 +55,10 @@
         <div class="empty">Add a photo here:<br>images/galaxy-blitz.png</div>
       </figure>
       <figure class="fig">
-        <img src="../images/galaxy-blitz-2.jpg" alt="Galaxy Blitz, second view" onerror="this.parentElement.classList.add('missing')">
-        <div class="empty">Add another photo here:<br>images/galaxy-blitz-2.jpg</div>
+        <video controls muted loop playsinline preload="metadata">
+          <source src="../images/galaxy-blitz-video.mp4" type="video/mp4" onerror="this.closest('.fig').classList.add('missing')">
+        </video>
+        <div class="empty">Add a gameplay video here:<br>images/galaxy-blitz-video.mp4</div>
       </figure>
     </div>
   </section>
