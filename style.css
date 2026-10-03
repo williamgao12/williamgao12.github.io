@@ -234,8 +234,12 @@ section:has(.pager) { padding: 22px 32px; }
 .sidenav a.current { background: var(--accent); color: #fff; }
 .sidenav svg { flex-shrink: 0; width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
 
-/* Make room for the sidebar so it never covers the page */
-@media (min-width: 761px) {
+/* Keep the page centered on the screen, with room for the sidebar on both sides */
+@media (min-width: 1200px) {
+  .sheet { max-width: min(1000px, calc(100vw - 484px)); }
+}
+/* Medium screens: not enough room to center, so nudge the page right of the sidebar */
+@media (min-width: 761px) and (max-width: 1199px) {
   body { padding-left: 242px; }
 }
 
