@@ -6,10 +6,10 @@
       { label: "Home", href: "index.html", icon: "home" }
     ]},
     { group: "Experience", items: [
-      { label: "Sepro America", href: "experience/sepro.html", icon: "briefcase" }
+      { label: "Engineering Intern, Sepro America", href: "experience/sepro.html", icon: "briefcase" }
     ]},
     { group: "Projects", items: [
-      { label: "Phone Deterrent", href: "projects/phone-deterrent.html", icon: "phone" },
+      { label: "Phone Deterrent Device", href: "projects/phone-deterrent.html", icon: "phone" },
       { label: "Structural Bracket", href: "projects/bracket.html", icon: "bracket" },
       { label: "Galaxy Blitz", href: "projects/galaxy-blitz.html", icon: "game" },
       { label: "Marble Dispenser", href: "projects/marble-dispenser.html", icon: "marble" }
