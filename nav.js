@@ -6,7 +6,7 @@
       { label: "Home", href: "index.html", icon: "home" }
     ]},
     { group: "Experience", items: [
-      { label: "Engineering Intern, Sepro America", href: "experience/sepro.html", icon: "briefcase" }
+      { label: "Engineering Intern", href: "experience/sepro.html", icon: "briefcase" }
     ]},
     { group: "Projects", items: [
       { label: "Phone Deterrent Device", href: "projects/phone-deterrent.html", icon: "phone" },
