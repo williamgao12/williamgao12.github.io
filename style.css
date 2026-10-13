@@ -256,3 +256,8 @@ section:has(.pager) { padding: 22px 32px; }
   .sidenav a { padding: 10px; }
   body { padding-bottom: 80px; }
 }
+
+
+/* Photos next to text: show the whole photo at its real shape (vertical or horizontal) */
+.split .fig:not(.missing) { aspect-ratio: auto; background: transparent; border: none; justify-self: center; }
+.split .fig img { width: auto; max-width: 100%; height: auto; max-height: 520px; }
